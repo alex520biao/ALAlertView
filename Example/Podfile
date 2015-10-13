@@ -2,7 +2,7 @@ source 'https://git.xiaojukeji.com/one-ios/Specs.git'
 source 'https://git.xiaojukeji.com/ios/cocoapods-specs.git'
 
 # We don't use Swift internally. Disable this option.
-#use_frameworks!
+use_frameworks!
 
 # Use local pod code if available.
 def local_pod(name, *args)
