@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version          = "0.1.2"
   s.summary          = "ALAlertView is a custom alertView"
   s.description      = <<-DESC.gsub(/^\s*\|?/,'')
-                       ALAlertView longer description
+                       ALAlertView is a custom alertView for you!
                        DESC
   s.homepage         = "https://github.com/alex520biao/ALAlertView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
