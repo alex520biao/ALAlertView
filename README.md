@@ -15,18 +15,13 @@
 
 介绍主要类的功能职责，例如：
 
-``` objective-c
-AFNetworkReachabilityManager：监听网络状态变化
-
-[[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-
-	NSLog(@"Reachability: %@", AFStringFromNetworkReachabilityStatus(status));
-
-}];
-
-[[AFNetworkReachabilityManager sharedManager] startMonitoring];
-```
-
+	AFNetworkReachabilityManager：监听网络状态变化
+	[[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+	
+		NSLog(@"Reachability: %@", AFStringFromNetworkReachabilityStatus(status));
+	
+	}];
+	[[AFNetworkReachabilityManager sharedManager] startMonitoring];
 
 ### 注意事项(可选)
 
@@ -40,8 +35,8 @@ AFNetworkReachabilityManager：监听网络状态变化
 
 目前都使用cocoapods安装，在Podfile中加入
 
-``` ruby
-pod "ALAlertView" 
+``` ruby 
+	pod "ALAlertView" 
 ```
 
 ## 维护者
@@ -50,4 +45,4 @@ alex520biao <alex520biao@163.com>
 
 ## 版权声明
 
-ALAlertView 是滴滴内部项目，默认不对外开源。
+ALAlertView 是xxxx内部项目，默认不对外开源。
