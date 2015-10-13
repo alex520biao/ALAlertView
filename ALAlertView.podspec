@@ -9,13 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "ALAlertView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of ALAlertView."
+  s.version          = "0.1.2"
+  s.summary          = "ALAlertView is a custom alertView"
   s.description      = <<-DESC.gsub(/^\s*\|?/,'')
-                       An optional longer description of ALAlertView
-
-                       | * Markdown format.
-                       | * Don't worry about the indent, we strip it!
+                       ALAlertView longer description
                        DESC
   s.homepage         = "https://github.com/alex520biao/ALAlertView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
