@@ -1,5 +1,5 @@
-source 'https://git.xiaojukeji.com/one-ios/Specs.git'
-source 'https://git.xiaojukeji.com/ios/cocoapods-specs.git'
+#source 'https://git.xiaojukeji.com/one-ios/Specs.git'
+#source 'https://git.xiaojukeji.com/ios/cocoapods-specs.git'
 
 # We don't use Swift internally. Disable this option.
 use_frameworks!
@@ -17,7 +17,7 @@ end
 
 # Add global dependencies here.
 
-target 'ALAlertView_Example', :exclusive => true do
+target 'ALAlertView_Example' do
   # If ALAlertView depends on any private pod, remember to use `local_pod`
   # to refer it explicitly.
   # CocoaPods cannot distinguish public and private pod from podspec right now,
@@ -31,7 +31,7 @@ target 'ALAlertView_Example', :exclusive => true do
   pod "ALAlertView", :path => "../"
 end
 
-target 'ALAlertView_Tests', :exclusive => true do
+target 'ALAlertView_Tests' do
   # Add Tests specific dependencies here...
 
   pod "ALAlertView", :path => "../"
