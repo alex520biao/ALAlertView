@@ -29,6 +29,7 @@ install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
-- set -o pipefail && xcodebuild test -workspace Example/ALAlertView.xcworkspace -scheme ALAlertView-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail 
+- xcodebuild build -workspace Example/ALAlertView.xcworkspace -scheme 'ALAlertView-Example' -configuration Debug -destination 'name=iPhone 6s' | xcpretty -c
 - pod lib lint --quick
 
