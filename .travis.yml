@@ -30,6 +30,7 @@ install:
 
 script:
 - set -o pipefail 
+- xcodebuild clean -workspace Example/ALAlertView.xcworkspace -scheme 'ALAlertView-Example' -configuration Debug -destination 'name=iPhone 6s' | xcpretty -c
 - xcodebuild build -workspace Example/ALAlertView.xcworkspace -scheme 'ALAlertView-Example' -configuration Debug -destination 'name=iPhone 6s' | xcpretty -c
 - pod lib lint --quick
 
